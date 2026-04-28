@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SQUADIO — العبوا مع بعض. اكسبوا مع بعض.</title>
+  <meta name="description" content="SQUADIO يساعدك تلاقي تيم بسرعة، تتواصل، تبني مجتمع، وتطوّر مستواك. منصة احترافية للاعبين في مصر والعالم العربي." />
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SQUADIO — العبوا مع بعض. اكسبوا مع بعض." />
+  <meta property="og:description" content="PLAY TOGETHER. WIN TOGETHER. منصة ربط اللاعبين العرب." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:image" content="https://example.com/assets/logo.jpg" />
+  <meta property="og:locale" content="ar_EG" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SQUADIO" />
+  <meta name="twitter:description" content="PLAY TOGETHER. WIN TOGETHER." />
+  <meta name="twitter:image" content="https://example.com/assets/logo.jpg" />
+
+  <meta name="theme-color" content="#F6B21A" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./assets/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="./assets/icon-192.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "SQUADIO",
+    "description": "منصة ربط اللاعبين العرب للعب الجماعي وبناء المجتمع.",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Android, iOS",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EGP"
+    },
+    "creator": {
+      "@type": "Person",
+      "name": "Ossama Elghariani"
+    },
+    "url": "https://example.com/",
+    "image": "https://example.com/assets/logo.jpg",
+    "inLanguage": "ar"
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ── Announcement bar ────────────────── -->
+  <div class="announce" role="banner">
+    <div class="container announce__inner">
+      <p>قريبًا على Google Play و App Store — سجل اهتمامك علشان توصلك أول نسخة.</p>
+      <a class="link" href="#waitlist" aria-label="انتقل إلى نموذج التسجيل">سجل الآن ←</a>
+    </div>
+  </div>
+
+  <!-- ── Header ──────────────────────────── -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+
+      <a class="brand" href="./" aria-label="الصفحة الرئيسية لـ SQUADIO">
+        <span class="brand__mark" aria-hidden="true">S</span>
+        <span class="brand__name">SQUADIO</span>
+      </a>
+
+      <nav class="nav" aria-label="التنقل الرئيسي">
+        <a href="#features">المميزات</a>
+        <a href="#how">كيف يعمل</a>
+        <a href="#screens">صور</a>
+        <a href="#faq">الأسئلة</a>
+        <a href="#waitlist" class="btn btn--sm">ابدأ الآن</a>
+      </nav>
+
+      <button
+        class="menuBtn"
+        id="menuBtn"
+        aria-label="افتح القائمة"
+        aria-expanded="false"
+        aria-controls="mobileMenu"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobileMenu" id="mobileMenu" hidden aria-label="القائمة المتنقلة">
+      <div class="container mobileMenu__inner">
+        <a href="#features">المميزات</a>
+        <a href="#how">كيف يعمل</a>
+        <a href="#screens">صور</a>
+        <a href="#faq">الأسئلة</a>
+        <a href="#waitlist" class="btn">ابدأ الآن</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main ────────────────────────────── -->
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero__inner">
+
+        <div class="hero__content">
+          <div class="pill" aria-label="التصنيف">🎮 للجيمرز · للسكواد · للمجتمع</div>
+
+          <h1 id="hero-heading">
+            لقِ تيمك بسرعة.<br />
+            <span class="accent">العبوا مع بعض</span>… واكسبوا.
+          </h1>
+
+          <p class="lead">
+            SQUADIO منصة بتخليك تلاقي لاعبين مناسبين لمستواك، تتواصل داخل التطبيق،
+            تبني مجتمع، وتطوّر أداءك—كل ده في تجربة بسيطة وسريعة.
+          </p>
+
+          <div class="ctaRow">
+            <a class="btn" href="#waitlist" aria-label="سجل اهتمامك في قائمة الانتظار">سجل اهتمامك</a>
+            <a class="btn btn--ghost" href="#features" aria-label="اعرف المميزات">شوف المميزات</a>
+          </div>
+
+          <div class="storeRow" aria-label="روابط التحميل">
+            <a class="storeBtn" href="#" onclick="return comingSoon(event)" aria-label="Google Play - قريبًا">
+              <span class="storeBtn__small">GET IT ON</span>
+              <span class="storeBtn__big">Google Play</span>
+            </a>
+            <a class="storeBtn" href="#" onclick="return comingSoon(event)" aria-label="App Store - قريبًا">
+              <span class="storeBtn__small">Download on the</span>
+              <span class="storeBtn__big">App Store</span>
+            </a>
+          </div>
+
+          <div class="stats" aria-label="إحصائيات سريعة">
+            <div class="stat">
+              <div class="stat__num">4</div>
+              <div class="stat__label">مزايا أساسية</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">24/7</div>
+              <div class="stat__label">تواصل فوري</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">∞</div>
+              <div class="stat__label">تيمات محتملة</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone mockup -->
+        <div class="hero__visual" aria-label="معاينة التطبيق">
+          <div class="phone" role="img" aria-label="شاشة التطبيق">
+            <div class="phone__top"></div>
+            <div class="phone__screen">
+              <div class="cardMini">
+                <div class="cardMini__title">🔍 Find Team</div>
+                <div class="cardMini__text">رشّح لاعبين على حسب اللعبة، الرانك، واللغة.</div>
+              </div>
+              <div class="cardMini">
+                <div class="cardMini__title">💬 Chat</div>
+                <div class="cardMini__text">دردشة سريعة + دعوات مباشرة للّعب.</div>
+              </div>
+              <div class="cardMini">
+                <div class="cardMini__title">🌐 Community</div>
+                <div class="cardMini__text">غرف مجتمعات وفعاليات وتحديات.</div>
+              </div>
+              <div class="cardMini">
+                <div class="cardMini__title">📈 Improve</div>
+                <div class="cardMini__text">نصائح وإحصائيات تساعدك تتطور.</div>
+              </div>
+            </div>
+            <div class="phone__bottom"></div>
+          </div>
+          <div class="glow" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust bar -->
+    <section class="trust" aria-label="مؤشرات الثقة">
+      <div class="container trust__inner">
+        <p class="muted">مصمم ليناسب فرق اللعب، الستريمرز، ومجتمعات الديسكورد.</p>
+        <div class="badges" aria-label="الوسوم">
+          <span class="badge">Fast Matchmaking</span>
+          <span class="badge">In‑App Chat</span>
+          <span class="badge">Communities</span>
+          <span class="badge">Performance Insights</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 id="features-heading">مميزات تخليك جاهز للـ Squad</h2>
+          <p class="muted">كل حاجة محتاجها علشان تلعب كفريق، مش كـ "سولو".</p>
+        </div>
+
+        <div class="grid grid--3" role="list">
+          <article class="feature" role="listitem">
+            <div class="feature__icon" aria-hidden="true">🔍</div>
+            <h3>ابحث عن تيم بسرعة</h3>
+            <p>فلترة حسب اللعبة، الأسلوب، الرانك، اللغة، ووقت اللعب. نتائج أوضح… وقت أقل ضايع.</p>
+          </article>
+          <article class="feature" role="listitem">
+            <div class="feature__icon" aria-hidden="true">💬</div>
+            <h3>دردشة ودعوات مباشرة</h3>
+            <p>اتفقوا على الاستراتيجية، ابعت دعوة، وابدأوا الجولة من غير لف ودوران.</p>
+          </article>
+          <article class="feature" role="listitem">
+            <div class="feature__icon" aria-hidden="true">🌐</div>
+            <h3>مجتمع نشط</h3>
+            <p>غرف وفعاليات وتحديات. ابني فريق ثابت بدل ما تغير كل يوم.</p>
+          </article>
+          <article class="feature" role="listitem">
+            <div class="feature__icon" aria-hidden="true">📈</div>
+            <h3>تطوير المستوى</h3>
+            <p>ملخصات بسيطة ومفيدة تساعدك تراجع أداءك وتتحسن خطوة بخطوة.</p>
+          </article>
+          <article class="feature" role="listitem">
+            <div class="feature__icon" aria-hidden="true">🎭</div>
+            <h3>هوية للاعبين</h3>
+            <p>بروفايل واضح: أدوارك المفضلة، أسلوب لعبك، وأوقات تواجدك.</p>
+          </article>
+          <article class="feature" role="listitem">
+            <div class="feature__icon" aria-hidden="true">⚡</div>
+            <h3>تجربة سريعة وخفيفة</h3>
+            <p>واجهة نظيفة على Dark Mode—مناسبة للجيمرز وبتشتغل بسلاسة على الموبايل.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section section--alt" id="how" aria-labelledby="how-heading">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 id="how-heading">كيف يعمل SQUADIO؟</h2>
+          <p class="muted">3 خطوات—وبعدها تبدأ اللعب.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step__num" aria-hidden="true">1</div>
+            <div>
+              <h3>اعمل بروفايلك</h3>
+              <p>اختار لعبتك، الرانك، وأسلوب لعبك علشان التوصيات تبقى أدق.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__num" aria-hidden="true">2</div>
+            <div>
+              <h3>لقِ لاعبين مناسبين</h3>
+              <p>توصيات + بحث + فلترة. اعمل سكواد بسرعة وبثقة.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__num" aria-hidden="true">3</div>
+            <div>
+              <h3>تواصل وابدأ</h3>
+              <p>دردشة، دعوات، وتنظيم—علشان كل جيم يبقى أحسن من اللي قبله.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section class="section" id="screens" aria-labelledby="screens-heading">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 id="screens-heading">لقطات من التجربة</h2>
+          <p class="muted">ضع هنا صور حقيقية من داخل التطبيق عند الجاهزية. (انظر README لإضافة الصور)</p>
+        </div>
+
+        <div class="screens">
+          <div class="shot" role="img" aria-label="شاشة البحث عن تيم">
+            <div class="shot__inner">
+              <span class="shot__icon" aria-hidden="true">🔍</span>
+              <span class="shot__cap">Find Team</span>
+            </div>
+          </div>
+          <div class="shot" role="img" aria-label="شاشة الدردشة">
+            <div class="shot__inner">
+              <span class="shot__icon" aria-hidden="true">💬</span>
+              <span class="shot__cap">Chat</span>
+            </div>
+          </div>
+          <div class="shot" role="img" aria-label="شاشة المجتمع">
+            <div class="shot__inner">
+              <span class="shot__icon" aria-hidden="true">🌐</span>
+              <span class="shot__cap">Community</span>
+            </div>
+          </div>
+          <div class="shot" role="img" aria-label="شاشة التطوير">
+            <div class="shot__inner">
+              <span class="shot__icon" aria-hidden="true">📈</span>
+              <span class="shot__cap">Improve</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section section--alt" aria-labelledby="quotes-heading">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 id="quotes-heading">ماذا يقول اللاعبون</h2>
+          <p class="muted">استبدل هذه الاقتباسات بآراء حقيقية عند توافرها.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <figure class="quote">
+            <div class="quote__stars" aria-label="5 نجوم">★★★★★</div>
+            <blockquote>"أخيرًا مكان يخليني ألاقي سكواد ثابت بدل راندوم كل مرة."</blockquote>
+            <figcaption>لاعب تنافسي — FPS</figcaption>
+          </figure>
+          <figure class="quote">
+            <div class="quote__stars" aria-label="5 نجوم">★★★★★</div>
+            <blockquote>"الفلترة على الرانك واللغة وفرت وقت كتير جدًا."</blockquote>
+            <figcaption>قائد تيم — Ranked</figcaption>
+          </figure>
+          <figure class="quote">
+            <div class="quote__stars" aria-label="5 نجوم">★★★★★</div>
+            <blockquote>"تصميم Dark نظيف ومريح للعين… وده مهم للجيمرز."</blockquote>
+            <figcaption>Streamer — Community</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="sectionHead">
+          <h2 id="faq-heading">أسئلة شائعة</h2>
+        </div>
+
+        <div class="faq">
+          <details class="faq__item">
+            <summary>هل التطبيق مجاني؟</summary>
+            <p>النسخة الأولى مجانية بالكامل. لاحقًا قد تتوفر مزايا إضافية اختيارية (Premium).</p>
+          </details>
+          <details class="faq__item">
+            <summary>هل يدعم أكثر من لعبة؟</summary>
+            <p>نعم—التطبيق مصمم لدعم ألعاب متعددة مع فلترة مخصصة لكل لعبة حسب احتياجاتها.</p>
+          </details>
+          <details class="faq__item">
+            <summary>متى سيتوفر التطبيق؟</summary>
+            <p>نعمل على إطلاق النسخة الأولى قريبًا. سجل بريدك في القائمة أدناه لتكون أول من يعلم.</p>
+          </details>
+          <details class="faq__item">
+            <summary>هل يعمل في مصر والدول العربية؟</summary>
+            <p>نعم—التطبيق موجه بالأساس للاعبين في مصر والعالم العربي، مع دعم كامل للغة العربية.</p>
+          </details>
+          <details class="faq__item">
+            <summary>كيف تحمون بياناتي؟</summary>
+            <p>نجمع فقط بريدك الإلكتروني لأغراض الإشعار بالإطلاق. راجع <a href="./privacy.html">سياسة الخصوصية</a> لمزيد من التفاصيل.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Waitlist -->
+    <section class="section section--cta" id="waitlist" aria-labelledby="waitlist-heading">
+      <div class="container cta">
+        <div>
+          <h2 id="waitlist-heading">ادخل الـ Waitlist</h2>
+          <p class="muted">خليك أول واحد يجرب SQUADIO.<br />بدون سبام—رسالة وقت الإطلاق فقط.</p>
+        </div>
+
+        <form class="form" id="waitlistForm" novalidate aria-label="نموذج قائمة الانتظار">
+          <label class="srOnly" for="email">البريد الإلكتروني</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="example@gmail.com"
+            required
+            autocomplete="email"
+            aria-required="true"
+            aria-describedby="formMsg"
+          />
+          <button class="btn" type="submit">تسجيل</button>
+          <p class="form__hint">
+            بالتسجيل أنت توافق على
+            <a href="./privacy.html" style="color:var(--accent)">سياسة الخصوصية</a>
+            و<a href="./terms.html" style="color:var(--accent)">الشروط والأحكام</a>.
+          </p>
+          <p class="form__msg" id="formMsg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ──────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+
+      <div>
+        <a class="brand brand--footer" href="./" aria-label="الصفحة الرئيسية">
+          <span class="brand__mark" aria-hidden="true">S</span>
+          <span class="brand__name">SQUADIO</span>
+        </a>
+        <p class="muted">PLAY TOGETHER. WIN TOGETHER.</p>
+      </div>
+
+      <nav class="footer__links" aria-label="روابط التذييل">
+        <a href="#features">المميزات</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+        <a href="./privacy.html">سياسة الخصوصية</a>
+        <a href="./terms.html">الشروط والأحكام</a>
+      </nav>
+
+      <div class="footer__copy muted">
+        &copy; <span id="year"></span> SQUADIO. All rights reserved.
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast" hidden role="alert" aria-live="assertive"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
