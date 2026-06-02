@@ -1,11 +1,11 @@
 {
-  "name": "SQUADIO — العبوا مع بعض",
-  "short_name": "SQUADIO",
-  "description": "منصة ربط اللاعبين العرب للعب الجماعي وبناء المجتمع.",
+  "name": "المستشار إسلام الغرياني — مستشار قانوني ومحامٍ",
+  "short_name": "إسلام الغرياني",
+  "description": "موقع قانوني احترافي لتقديم الاستشارات القانونية والدفاع عن الحقوق وفقًا للقانون المصري.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#070A0F",
-  "theme_color": "#F6B21A",
+  "background_color": "#060b18",
+  "theme_color": "#08132a",
   "lang": "ar",
   "dir": "rtl",
   "orientation": "portrait-primary",
@@ -29,8 +29,7 @@
       "purpose": "any maskable"
     }
   ],
-  "screenshots": [],
-  "categories": ["games", "social"],
+  "categories": ["business", "law"],
   "related_applications": [],
   "prefer_related_applications": false
 }

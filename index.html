@@ -3,439 +3,303 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SQUADIO — العب مع فريقك. اربح معا.</title>
-  <meta name="description" content="SQUADIO يساعدك تلاقي تيم بسرعة، تتواصل، تبني مجتمع، وتطوّر مستواك. منصة احترافية للاعبين في مصر والعالم العربي." />
+  <title>المستشار إسلام الغرياني | مستشار قانوني ومحامٍ</title>
+  <meta name="description" content="الموقع الرسمي للمستشار إسلام الغرياني: استشارات قانونية متخصصة، دفاع عن الحقوق، وخدمات قانونية احترافية وفقًا للقانون المصري." />
+  <meta name="keywords" content="المستشار إسلام الغرياني, محامي, مستشار قانوني, القانون المصري, قضايا مدنية, قضايا جنائية" />
+  <meta name="theme-color" content="#08132a" />
+  <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://example.com/" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="SQUADIO — العب مع فريقك. اربح معا." />
-  <meta property="og:description" content="العب مع فريقك. اربح معا. منصة ربط اللاعبين العرب." />
   <meta property="og:type" content="website" />
+  <meta property="og:title" content="المستشار إسلام الغرياني | Legal Consultant & Attorney at Law" />
+  <meta property="og:description" content="خبرة قانونية متخصصة في تقديم الاستشارات القانونية والدفاع عن الحقوق وفقًا للقانون المصري." />
   <meta property="og:url" content="https://example.com/" />
-  <meta property="og:image" content="https://example.com/assets/logo.jpg" />
   <meta property="og:locale" content="ar_EG" />
 
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="SQUADIO" />
-  <meta name="twitter:description" content="PLAY TOGETHER. WIN TOGETHER." />
-  <meta name="twitter:image" content="https://example.com/assets/logo.jpg" />
+  <meta name="twitter:title" content="المستشار إسلام الغرياني" />
+  <meta name="twitter:description" content="موقع قانوني احترافي يعكس الثقة والعدالة والخبرة القانونية." />
 
-  <meta name="theme-color" content="#CC0010" />
-
-  <!-- PWA -->
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="icon" href="./assets/favicon.png" type="image/png" />
   <link rel="apple-touch-icon" href="./assets/icon-192.png" />
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="./styles.css" />
 
-  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MobileApplication",
-    "name": "SQUADIO",
-    "description": "منصة ربط اللاعبين العرب للعب الجماعي وبناء المجتمع.",
-    "applicationCategory": "GameApplication",
-    "operatingSystem": "Android, iOS",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "EGP"
-    },
-    "creator": {
-      "@type": "Person",
-      "name": "Ossama Elghariani"
-    },
+    "@type": "LegalService",
+    "name": "المستشار إسلام الغرياني",
+    "description": "خدمات واستشارات قانونية احترافية وفق القانون المصري.",
     "url": "https://example.com/",
-    "image": "https://example.com/assets/logo.jpg",
+    "telephone": "+201000000000",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "EG",
+      "addressLocality": "Cairo"
+    },
+    "areaServed": "Egypt",
     "inLanguage": "ar"
   }
   </script>
 </head>
-
 <body>
-
-  <!-- ── Announcement bar ────────────────── -->
-  <div class="announce" role="banner">
-    <div class="container announce__inner">
-      <p>قريبًا على Google Play و App Store — سجل اهتمامك علشان توصلك أول نسخة.</p>
-      <a class="link" href="#waitlist" aria-label="انتقل إلى نموذج التسجيل">سجل الآن ←</a>
-    </div>
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__logo">⚖</div>
+    <p>المستشار إسلام الغرياني</p>
   </div>
 
-  <!-- ── Header ──────────────────────────── -->
-  <header class="header" role="banner">
-    <div class="container header__inner">
+  <div class="bg-particles" aria-hidden="true"></div>
 
-      <a class="brand" href="./" aria-label="الصفحة الرئيسية لـ SQUADIO">
-        <span class="brand__mark" aria-hidden="true">S</span>
-        <span class="brand__name">SQUADIO</span>
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="الصفحة الرئيسية">
+        <span class="brand__icon">⚖</span>
+        <span>
+          <strong>المستشار إسلام الغرياني</strong>
+          <small>Legal Consultant & Attorney at Law</small>
+        </span>
       </a>
 
-      <nav class="nav" aria-label="التنقل الرئيسي">
-        <a href="#features">المميزات</a>
-        <a href="#how">كيف يعمل</a>
-        <a href="#screens">صور</a>
-        <a href="#faq">الأسئلة</a>
-        <a href="#waitlist" class="btn btn--sm">ابدأ الآن</a>
+      <nav class="nav" id="mainNav" aria-label="التنقل الرئيسي">
+        <a href="#about">من نحن</a>
+        <a href="#egypt-law">القانون المصري</a>
+        <a href="#services">الخدمات</a>
+        <a href="#articles">المقالات</a>
+        <a href="#faq">الأسئلة الشائعة</a>
+        <a href="#contact">تواصل معنا</a>
       </nav>
 
-      <button
-        class="menuBtn"
-        id="menuBtn"
-        aria-label="افتح القائمة"
-        aria-expanded="false"
-        aria-controls="mobileMenu"
-      >
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-
-    <!-- Mobile menu -->
-    <div class="mobileMenu" id="mobileMenu" hidden aria-label="القائمة المتنقلة">
-      <div class="container mobileMenu__inner">
-        <a href="#features">المميزات</a>
-        <a href="#how">كيف يعمل</a>
-        <a href="#screens">صور</a>
-        <a href="#faq">الأسئلة</a>
-        <a href="#waitlist" class="btn">ابدأ الآن</a>
+      <div class="header__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="تبديل الوضع">☀</button>
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav" aria-label="القائمة">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </div>
   </header>
 
-  <!-- ── Main ────────────────────────────── -->
-  <main id="main-content">
+  <main>
+    <section class="hero section" aria-labelledby="heroTitle">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow">مكتب قانوني احترافي بمعايير دولية</p>
+          <h1 id="heroTitle">المستشار إسلام الغرياني</h1>
+          <p class="subtitle">خبرة قانونية متخصصة في تقديم الاستشارات القانونية والدفاع عن الحقوق وفقًا للقانون المصري.</p>
 
-    <!-- Hero -->
-    <section class="hero" aria-labelledby="hero-heading">
-      <div class="container hero__inner">
-
-        <div class="hero__content">
-          <div class="pill" aria-label="التصنيف">🎮 للجيمرز · للسكواد · للمجتمع</div>
-
-          <h1 id="hero-heading">
-            العب مع فريقك.<br />
-            <span class="accent">اربح معا.</span>
-          </h1>
-
-          <p class="lead">
-            SQUADIO منصة بتخليك تلاقي لاعبين مناسبين لمستواك، تتواصل داخل التطبيق،
-            تبني مجتمع، وتطوّر أداءك—كل ده في تجربة بسيطة وسريعة.
-          </p>
-
-          <div class="ctaRow">
-            <a class="btn" href="#waitlist" aria-label="سجل اهتمامك في قائمة الانتظار">سجل اهتمامك</a>
-            <a class="btn btn--ghost" href="#features" aria-label="اعرف المميزات">شوف المميزات</a>
+          <div class="hero__cta">
+            <a class="btn" href="#contact">احجز استشارة قانونية</a>
+            <a class="btn btn--ghost" href="#contact">تواصل معنا</a>
           </div>
 
-          <div class="storeRow" aria-label="روابط التحميل">
-            <a class="storeBtn" href="#" onclick="return comingSoon(event)" aria-label="Google Play - قريبًا">
-              <span class="storeBtn__small">GET IT ON</span>
-              <span class="storeBtn__big">Google Play</span>
-            </a>
-            <a class="storeBtn" href="#" onclick="return comingSoon(event)" aria-label="App Store - قريبًا">
-              <span class="storeBtn__small">Download on the</span>
-              <span class="storeBtn__big">App Store</span>
-            </a>
-          </div>
-
-          <div class="stats" aria-label="إحصائيات سريعة">
-            <div class="stat">
-              <div class="stat__num">4</div>
-              <div class="stat__label">مزايا أساسية</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">24/7</div>
-              <div class="stat__label">تواصل فوري</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">∞</div>
-              <div class="stat__label">تيمات محتملة</div>
-            </div>
+          <div class="floating-symbols" aria-hidden="true">
+            <span>⚖</span><span>⚒</span><span>📜</span><span>🏛</span>
           </div>
         </div>
 
-        <!-- Phone mockup -->
-        <div class="hero__visual" aria-label="معاينة التطبيق">
-          <div class="phone" role="img" aria-label="شاشة التطبيق">
-            <div class="phone__top"></div>
-            <div class="phone__screen">
-              <div class="cardMini">
-                <div class="cardMini__title">🔍 البحث عن فريق</div>
-                <div class="cardMini__text">ابحث عن لاعبين محترفين وانضم إلى الفريق المثالي.</div>
-              </div>
-              <div class="cardMini">
-                <div class="cardMini__title">💬 الدردشة</div>
-                <div class="cardMini__text">دعوات مباشرة وتنسيق سريع مع فريقك.</div>
-              </div>
-              <div class="cardMini">
-                <div class="cardMini__title">👥 المجتمع</div>
-                <div class="cardMini__text">انضم إلى مجتمع اللاعبين وتشارك الخبرات.</div>
-              </div>
-              <div class="cardMini">
-                <div class="cardMini__title">🏆 البطولات</div>
-                <div class="cardMini__text">شارك في بطولات حماسية واربح جوائز قيمة.</div>
-              </div>
-            </div>
-            <div class="phone__bottom"></div>
+        <div class="hero__visual reveal">
+          <div class="hero-canvas-wrap">
+            <canvas id="justiceCanvas" aria-label="ميزان العدالة ثلاثي الأبعاد"></canvas>
           </div>
-          <div class="glow" aria-hidden="true"></div>
         </div>
       </div>
     </section>
 
-    <!-- Trust bar -->
-    <section class="trust" aria-label="مؤشرات الثقة">
-      <div class="container trust__inner">
-        <p class="muted">مصمم ليناسب فرق اللعب، الستريمرز، ومجتمعات الديسكورد.</p>
-        <div class="badges" aria-label="الوسوم">
-          <span class="badge">البحث عن فريق</span>
-          <span class="badge">الدردشة</span>
-          <span class="badge">المجتمع</span>
-          <span class="badge">تحسين مستواك</span>
-          <span class="badge">البطولات</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Features -->
-    <section class="section" id="features" aria-labelledby="features-heading">
+    <section class="section" id="about" aria-labelledby="aboutTitle">
       <div class="container">
-        <div class="sectionHead">
-          <h2 id="features-heading">أيقونات الأقسام داخل التطبيق</h2>
-          <p class="muted">كل حاجة محتاجها علشان تلعب كفريق، مش كـ "سولو".</p>
+        <div class="section-head reveal">
+          <h2 id="aboutTitle">من نحن</h2>
+          <p>نقدم نموذجًا قانونيًا يجمع بين الخبرة العملية، الالتزام المهني، والسرية الكاملة، مع تركيز دائم على حماية الحقوق وتحقيق العدالة.</p>
         </div>
 
-        <div class="grid grid--5" role="list">
-          <article class="feature" role="listitem">
-            <div class="feature__icon" aria-hidden="true">🔍</div>
-            <h3>البحث عن فريق</h3>
-            <p>ابحث عن لاعبين محترفين وانضم إلى الفريق المثالي.</p>
-          </article>
-          <article class="feature" role="listitem">
-            <div class="feature__icon" aria-hidden="true">💬</div>
-            <h3>الدردشة</h3>
-            <p>تواصل مع فريقك بسهولة ودردش في الوقت الحقيقي.</p>
-          </article>
-          <article class="feature" role="listitem">
-            <div class="feature__icon" aria-hidden="true">👥</div>
-            <h3>المجتمع</h3>
-            <p>انضم إلى مجتمع اللاعبين وتشارك الخبرات.</p>
-          </article>
-          <article class="feature" role="listitem">
-            <div class="feature__icon" aria-hidden="true">🎯</div>
-            <h3>تحسين مستواك</h3>
-            <p>طور مهاراتك وارق في التصنيفات، كن الأفضل دائمًا.</p>
-          </article>
-          <article class="feature" role="listitem">
-            <div class="feature__icon" aria-hidden="true">🏆</div>
-            <h3>البطولات</h3>
-            <p>شارك في بطولات حماسية واربح جوائز قيمة.</p>
-          </article>
+        <div class="about-grid">
+          <article class="glass-card reveal"><h3>خبرة متخصصة</h3><p>تمثيل قانوني متوازن يعتمد على التحليل الدقيق والقراءة العميقة للنصوص القانونية.</p></article>
+          <article class="glass-card reveal"><h3>سرية تامة</h3><p>خصوصية معلومات العملاء أولوية أساسية في جميع مراحل التعامل القانوني.</p></article>
+          <article class="glass-card reveal"><h3>التزام بالعدالة</h3><p>نلتزم بالدفاع عن الحقوق وفق الأطر الشرعية والقانونية وبأعلى معايير النزاهة.</p></article>
+          <article class="glass-card reveal"><h3>حلول عملية</h3><p>صياغة حلول قانونية واقعية قابلة للتنفيذ وتحقيق أفضل النتائج للعميل.</p></article>
+        </div>
+
+        <div class="icon-row reveal" aria-label="أيقونات قانونية">
+          <span>⚖ ميزان العدالة</span>
+          <span>🏛 المحكمة</span>
+          <span>📜 العقود القانونية</span>
+          <span>🔨 المطرقة القضائية</span>
         </div>
       </div>
     </section>
 
-    <!-- How it works -->
-    <section class="section section--alt" id="how" aria-labelledby="how-heading">
+    <section class="section section--alt" id="egypt-law" aria-labelledby="egyptLawTitle">
       <div class="container">
-        <div class="sectionHead">
-          <h2 id="how-heading">كيف يعمل SQUADIO؟</h2>
-          <p class="muted">3 خطوات—وبعدها تبدأ اللعب.</p>
+        <div class="section-head reveal">
+          <h2 id="egyptLawTitle">نبذة عن القانون المصري</h2>
         </div>
-
-        <div class="steps">
-          <div class="step">
-            <div class="step__num" aria-hidden="true">1</div>
-            <div>
-              <h3>اعمل بروفايلك</h3>
-              <p>اختار لعبتك، الرانك، وأسلوب لعبك علشان التوصيات تبقى أدق.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step__num" aria-hidden="true">2</div>
-            <div>
-              <h3>لقِ لاعبين مناسبين</h3>
-              <p>توصيات + بحث + فلترة. اعمل سكواد بسرعة وبثقة.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step__num" aria-hidden="true">3</div>
-            <div>
-              <h3>تواصل وابدأ</h3>
-              <p>دردشة، دعوات، وتنظيم—علشان كل جيم يبقى أحسن من اللي قبله.</p>
-            </div>
-          </div>
+        <div class="law-grid">
+          <article class="glass-card reveal"><h3>مفهوم القانون المصري</h3><p>منظومة تشريعية متكاملة تنظم العلاقات بين الأفراد والمؤسسات وتحافظ على استقرار المجتمع.</p></article>
+          <article class="glass-card reveal"><h3>دور القانون في تحقيق العدالة</h3><p>يوفر إطارًا واضحًا لحماية الحقوق وتطبيق مبدأ المساواة أمام القضاء.</p></article>
+          <article class="glass-card reveal"><h3>النظام القضائي المصري</h3><p>يتدرج بين المحاكم الجزئية والابتدائية والاستئناف والنقض، ويضمن مسارات تقاضٍ منظمة.</p></article>
+          <article class="glass-card reveal"><h3>حقوق وواجبات المواطنين</h3><p>يكفل القانون الحقوق الأساسية ويحدد المسؤوليات بما يحقق التوازن بين الحرية والنظام العام.</p></article>
+          <article class="glass-card reveal"><h3>أهمية الاستشارات القانونية</h3><p>الاستشارة المبكرة تقلل المخاطر، وتدعم اتخاذ قرارات قانونية سليمة قبل النزاعات.</p></article>
         </div>
       </div>
     </section>
 
-    <!-- Screenshots -->
-    <section class="section" id="screens" aria-labelledby="screens-heading">
+    <section class="section" id="services" aria-labelledby="servicesTitle">
       <div class="container">
-        <div class="sectionHead">
-          <h2 id="screens-heading">لقطات من التجربة</h2>
-          <p class="muted">ضع هنا صور حقيقية من داخل التطبيق عند الجاهزية. (انظر README لإضافة الصور)</p>
+        <div class="section-head reveal">
+          <h2 id="servicesTitle">الخدمات القانونية</h2>
+          <p>خدمات متكاملة عبر بطاقات تفاعلية ثلاثية الأبعاد.</p>
         </div>
-
-        <div class="screens">
-          <div class="shot" role="img" aria-label="شاشة البحث عن فريق">
-            <div class="shot__inner">
-              <span class="shot__icon" aria-hidden="true">🔍</span>
-              <span class="shot__cap">البحث عن فريق</span>
-            </div>
-          </div>
-          <div class="shot" role="img" aria-label="شاشة الدردشة">
-            <div class="shot__inner">
-              <span class="shot__icon" aria-hidden="true">💬</span>
-              <span class="shot__cap">الدردشة</span>
-            </div>
-          </div>
-          <div class="shot" role="img" aria-label="شاشة المجتمع">
-            <div class="shot__inner">
-              <span class="shot__icon" aria-hidden="true">👥</span>
-              <span class="shot__cap">المجتمع</span>
-            </div>
-          </div>
-          <div class="shot" role="img" aria-label="شاشة تحسين المستوى">
-            <div class="shot__inner">
-              <span class="shot__icon" aria-hidden="true">🎯</span>
-              <span class="shot__cap">تحسين مستواك</span>
-            </div>
-          </div>
+        <div class="services-grid" role="list">
+          <article class="service-card reveal" role="listitem"><span>📘</span><h3>الاستشارات القانونية</h3><p>استشارات دقيقة مبنية على التشريع والسوابق القضائية.</p></article>
+          <article class="service-card reveal" role="listitem"><span>⚖</span><h3>القضايا المدنية</h3><p>تمثيل احترافي في منازعات التعويضات والالتزامات المدنية.</p></article>
+          <article class="service-card reveal" role="listitem"><span>🛡</span><h3>القضايا الجنائية</h3><p>دفاع قانوني قوي في مختلف مراحل التحقيق والمحاكمة.</p></article>
+          <article class="service-card reveal" role="listitem"><span>👨‍👩‍👧</span><h3>الأحوال الشخصية</h3><p>إدارة قضايا الأسرة بما يضمن حماية الحقوق الأسرية.</p></article>
+          <article class="service-card reveal" role="listitem"><span>🏢</span><h3>تأسيس الشركات</h3><p>إجراءات تأسيس متكاملة وصياغة الأنظمة الداخلية.</p></article>
+          <article class="service-card reveal" role="listitem"><span>📝</span><h3>صياغة العقود</h3><p>صياغة ومراجعة العقود التجارية والمدنية باحترافية.</p></article>
+          <article class="service-card reveal" role="listitem"><span>📊</span><h3>القضايا التجارية</h3><p>حل النزاعات التجارية وحماية المصالح الاستثمارية.</p></article>
+          <article class="service-card reveal" role="listitem"><span>🤝</span><h3>التحكيم وتسوية المنازعات</h3><p>حلول بديلة سريعة وفعالة لتسوية النزاعات.</p></article>
+          <article class="service-card reveal" role="listitem"><span>👷</span><h3>قضايا العمل</h3><p>معالجة نزاعات العمل للأفراد والشركات وفق القانون.</p></article>
+          <article class="service-card reveal" role="listitem"><span>📁</span><h3>متابعة الإجراءات القانونية</h3><p>متابعة دقيقة لكافة الإجراءات أمام الجهات المختصة.</p></article>
         </div>
       </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="section section--alt" aria-labelledby="quotes-heading">
+    <section class="section section--alt" id="why-us" aria-labelledby="whyUsTitle">
       <div class="container">
-        <div class="sectionHead">
-          <h2 id="quotes-heading">ماذا يقول اللاعبون</h2>
-          <p class="muted">استبدل هذه الاقتباسات بآراء حقيقية عند توافرها.</p>
+        <div class="section-head reveal">
+          <h2 id="whyUsTitle">لماذا تختارنا</h2>
         </div>
 
-        <div class="grid grid--3">
-          <figure class="quote">
-            <div class="quote__stars" aria-label="5 نجوم">★★★★★</div>
-            <blockquote>"أخيرًا مكان يخليني ألاقي سكواد ثابت بدل راندوم كل مرة."</blockquote>
-            <figcaption>لاعب تنافسي — FPS</figcaption>
-          </figure>
-          <figure class="quote">
-            <div class="quote__stars" aria-label="5 نجوم">★★★★★</div>
-            <blockquote>"الفلترة على الرانك واللغة وفرت وقت كتير جدًا."</blockquote>
-            <figcaption>قائد تيم — Ranked</figcaption>
-          </figure>
-          <figure class="quote">
-            <div class="quote__stars" aria-label="5 نجوم">★★★★★</div>
-            <blockquote>"تصميم Dark نظيف ومريح للعين… وده مهم للجيمرز."</blockquote>
-            <figcaption>Streamer — Community</figcaption>
-          </figure>
+        <div class="counter-grid">
+          <article class="counter-card reveal"><strong class="counter" data-target="18">0</strong><span>سنوات الخبرة</span></article>
+          <article class="counter-card reveal"><strong class="counter" data-target="1250">0</strong><span>عدد القضايا الناجحة</span></article>
+          <article class="counter-card reveal"><strong class="counter" data-target="2100">0</strong><span>عدد العملاء</span></article>
+          <article class="counter-card reveal"><strong class="counter" data-target="98">0</strong><span>نسبة رضا العملاء %</span></article>
+        </div>
+
+        <div class="timeline" aria-label="الإنجازات المهنية">
+          <article class="timeline__item reveal"><span>2008</span><p>بداية المسيرة المهنية في مجال المحاماة والاستشارات.</p></article>
+          <article class="timeline__item reveal"><span>2014</span><p>توسيع نطاق العمل ليشمل القضايا التجارية والتحكيم.</p></article>
+          <article class="timeline__item reveal"><span>2020</span><p>إطلاق منظومة متابعة رقمية للقضايا وخدمة العملاء.</p></article>
+          <article class="timeline__item reveal"><span>2026</span><p>تقديم تجربة قانونية رقمية متقدمة بمعايير عالمية.</p></article>
         </div>
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section class="section" id="faq" aria-labelledby="faq-heading">
+    <section class="section" id="articles" aria-labelledby="articlesTitle">
       <div class="container">
-        <div class="sectionHead">
-          <h2 id="faq-heading">أسئلة شائعة</h2>
+        <div class="section-head reveal">
+          <h2 id="articlesTitle">مقالات قانونية</h2>
         </div>
-
-        <div class="faq">
-          <details class="faq__item">
-            <summary>هل التطبيق مجاني؟</summary>
-            <p>النسخة الأولى مجانية بالكامل. لاحقًا قد تتوفر مزايا إضافية اختيارية (Premium).</p>
-          </details>
-          <details class="faq__item">
-            <summary>هل يدعم أكثر من لعبة؟</summary>
-            <p>نعم—التطبيق مصمم لدعم ألعاب متعددة مع فلترة مخصصة لكل لعبة حسب احتياجاتها.</p>
-          </details>
-          <details class="faq__item">
-            <summary>متى سيتوفر التطبيق؟</summary>
-            <p>نعمل على إطلاق النسخة الأولى قريبًا. سجل بريدك في القائمة أدناه لتكون أول من يعلم.</p>
-          </details>
-          <details class="faq__item">
-            <summary>هل يعمل في مصر والدول العربية؟</summary>
-            <p>نعم—التطبيق موجه بالأساس للاعبين في مصر والعالم العربي، مع دعم كامل للغة العربية.</p>
-          </details>
-          <details class="faq__item">
-            <summary>كيف تحمون بياناتي؟</summary>
-            <p>نجمع فقط بريدك الإلكتروني لأغراض الإشعار بالإطلاق. راجع <a href="./privacy.html">سياسة الخصوصية</a> لمزيد من التفاصيل.</p>
-          </details>
+        <div class="articles-grid">
+          <article class="glass-card reveal"><h3>أحدث الأخبار القانونية</h3><p>متابعة مستمرة لأبرز المستجدات القضائية والتشريعية في مصر.</p></article>
+          <article class="glass-card reveal"><h3>مقالات التوعية القانونية</h3><p>محتوى مبسط يوضح الجوانب القانونية اليومية للأفراد والشركات.</p></article>
+          <article class="glass-card reveal"><h3>تحديثات القوانين المصرية</h3><p>قراءة تحليلية للتعديلات القانونية وتأثيرها العملي على القضايا.</p></article>
+          <article class="glass-card reveal"><h3>حقوق المواطنين</h3><p>شرح الحقوق الدستورية والقانونية وآليات حمايتها قانونيًا.</p></article>
         </div>
       </div>
     </section>
 
-    <!-- Waitlist -->
-    <section class="section section--cta" id="waitlist" aria-labelledby="waitlist-heading">
-      <div class="container cta">
-        <div>
-          <h2 id="waitlist-heading">ادخل الـ Waitlist</h2>
-          <p class="muted">خليك أول واحد يجرب SQUADIO.<br />بدون سبام—رسالة وقت الإطلاق فقط.</p>
+    <section class="section section--alt" id="testimonials" aria-labelledby="testimonialsTitle">
+      <div class="container">
+        <div class="section-head reveal"><h2 id="testimonialsTitle">آراء العملاء</h2></div>
+        <div class="testimonials reveal">
+          <button class="slider-btn" id="prevTestimonial" aria-label="السابق">‹</button>
+          <div class="testimonial-track" id="testimonialTrack">
+            <article class="testimonial active">
+              <p>"تعامل احترافي، متابعة دقيقة، ونتيجة فاقت توقعاتي في القضية المدنية."</p>
+              <h3>عميل — القاهرة</h3>
+            </article>
+            <article class="testimonial">
+              <p>"وضوح قانوني ممتاز وسرعة استجابة كبيرة في كل مراحل القضية."</p>
+              <h3>عميل — الجيزة</h3>
+            </article>
+            <article class="testimonial">
+              <p>"خبرة عميقة في العقود والتفاوض، أنصح بالتعامل بكل ثقة."</p>
+              <h3>رائد أعمال — الإسكندرية</h3>
+            </article>
+          </div>
+          <button class="slider-btn" id="nextTestimonial" aria-label="التالي">›</button>
         </div>
-
-        <form class="form" id="waitlistForm" novalidate aria-label="نموذج قائمة الانتظار">
-          <label class="srOnly" for="email">البريد الإلكتروني</label>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="example@gmail.com"
-            required
-            autocomplete="email"
-            aria-required="true"
-            aria-describedby="formMsg"
-          />
-          <button class="btn" type="submit">تسجيل</button>
-          <p class="form__hint">
-            بالتسجيل أنت توافق على
-            <a href="./privacy.html" style="color:var(--accent)">سياسة الخصوصية</a>
-            و<a href="./terms.html" style="color:var(--accent)">الشروط والأحكام</a>.
-          </p>
-          <p class="form__msg" id="formMsg" role="status" aria-live="polite"></p>
-        </form>
       </div>
     </section>
 
+    <section class="section" id="faq" aria-labelledby="faqTitle">
+      <div class="container">
+        <div class="section-head reveal"><h2 id="faqTitle">الأسئلة الشائعة</h2></div>
+        <div class="faq reveal">
+          <details open><summary>متى أحتاج إلى استشارة قانونية؟</summary><p>عند وجود نزاع أو قبل توقيع أي عقد مهم لتفادي المخاطر القانونية المستقبلية.</p></details>
+          <details><summary>هل يمكن المتابعة أونلاين؟</summary><p>نعم، نوفر متابعة واستشارات عن بُعد مع الحفاظ الكامل على سرية البيانات.</p></details>
+          <details><summary>ما المستندات المطلوبة لبدء القضية؟</summary><p>تختلف حسب نوع القضية، ويتم تحديدها بعد مراجعة أولية دقيقة للحالة.</p></details>
+          <details><summary>هل يتم تحديثي بمستجدات القضية؟</summary><p>نعم، نلتزم بإبلاغ العميل بكل خطوة وإجراء قانوني بشكل واضح ومنتظم.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--cta" id="contact" aria-labelledby="contactTitle">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <div class="section-head"><h2 id="contactTitle">تواصل معنا</h2></div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <label>الاسم<input type="text" name="name" required /></label>
+            <label>رقم الهاتف<input type="tel" name="phone" required /></label>
+            <label>البريد الإلكتروني<input type="email" name="email" required /></label>
+            <label>الرسالة<textarea name="message" rows="4" required></textarea></label>
+            <button class="btn" type="submit">إرسال الرسالة</button>
+            <p class="form-msg" id="contactMsg" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-buttons">
+            <a class="btn" href="https://wa.me/201000000000" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn--ghost" href="tel:+201000000000">اتصال مباشر</a>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <iframe
+            title="Google Maps"
+            src="https://www.google.com/maps?q=Cairo%20Egypt&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <!-- ── Footer ──────────────────────────── -->
-  <footer class="footer" role="contentinfo">
-    <div class="container footer__inner">
-
+  <footer class="footer">
+    <div class="container footer-grid">
       <div>
-        <a class="brand brand--footer" href="./" aria-label="الصفحة الرئيسية">
-          <span class="brand__mark" aria-hidden="true">S</span>
-          <span class="brand__name">SQUADIO</span>
-        </a>
-        <p class="muted">العب مع فريقك. اربح معا.</p>
+        <h3>روابط سريعة</h3>
+        <a href="#about">من نحن</a>
+        <a href="#services">الخدمات</a>
+        <a href="#articles">المقالات</a>
+        <a href="#contact">تواصل معنا</a>
       </div>
-
-      <nav class="footer__links" aria-label="روابط التذييل">
-        <a href="#features">المميزات</a>
-        <a href="#faq">الأسئلة الشائعة</a>
-        <a href="./privacy.html">سياسة الخصوصية</a>
-        <a href="./terms.html">الشروط والأحكام</a>
-      </nav>
-
-      <div class="footer__copy muted">
-        &copy; <span id="year"></span> SQUADIO. All rights reserved.
+      <div>
+        <h3>الخدمات القانونية</h3>
+        <a href="#services">الاستشارات القانونية</a>
+        <a href="#services">القضايا المدنية والجنائية</a>
+        <a href="#services">صياغة العقود</a>
+        <a href="#services">التحكيم وتسوية المنازعات</a>
       </div>
-
+      <div>
+        <h3>وسائل التواصل الاجتماعي</h3>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="X">X</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
     </div>
+    <p class="copyright">© 2026 المستشار إسلام الغرياني - جميع الحقوق محفوظة</p>
   </footer>
 
-  <!-- Toast notification -->
-  <div class="toast" id="toast" hidden role="alert" aria-live="assertive"></div>
-
-  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+  <script src="./script.js" defer></script>
 </body>
 </html>
